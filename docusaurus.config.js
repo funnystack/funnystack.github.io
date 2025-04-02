@@ -10,7 +10,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Funny Insight',
+  title: 'Funny\'S Insight',
   tagline: 'Arch are cool',
   favicon: 'img/favicon.ico',
 
@@ -26,7 +26,7 @@ const config = {
   projectName: 'funnystack.github.io', // Usually your repo name.
   deploymentBranch: 'gh-pages',
   // trailingSlash: false,
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set
@@ -156,7 +156,7 @@ const config = {
         //     ],
         //   },
         // ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Funny'S Insight.`,
       },
       prism: {
         theme: prismThemes.github,

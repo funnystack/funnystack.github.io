@@ -10,8 +10,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Funny\'S Insight',
-  tagline: 'Arch are cool',
+  title: '利叔聊技术',
+  tagline: '专注电商、广告等大型分布式系统架构,深度实践 AI × 业务落地,用工程师的视角，帮你少踩坑、少走弯路',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -73,39 +73,39 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'https://avatars.githubusercontent.com/u/16894071?v=4',
       navbar: {
-        title: 'funnystack',
+        title: '',
         logo: {
           alt: 'Talk is cheap. Show me the code.',
-          src: 'img/logo.svg',
+          src: 'https://avatars.githubusercontent.com/u/16894071?v=4',
         },
         items: [
           {
             type: 'docSidebar',
             sidebarId: 'javaSidebar',
             position: 'left',
-            label: 'Java面试宝典',
+            label: '聊聊AI',
           },
           {
             type: 'docSidebar',
             sidebarId: 'archSidebar',
             position: 'left',
-            label: '架构师手册',
+            label: '聊聊架构',
           },
           {
             type: 'docSidebar',
             sidebarId: 'managementSidebar',
             position: 'left',
-            label: '技术管理',
+            label: '聊聊管理',
           },
-          {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Tutorial',
-          },
-          // {to: '/blog', label: 'Blog', position: 'left'},
+          // {
+          //   type: 'docSidebar',
+          //   sidebarId: 'tutorialSidebar',
+          //   position: 'left',
+          //   label: 'Tutorial',
+          // },
+          {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/funnystack',
             label: 'GitHub',

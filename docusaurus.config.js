@@ -77,13 +77,13 @@ const config = {
       navbar: {
         title: '',
         logo: {
-          alt: 'Talk is cheap. Show me the code.',
+          alt: '实践出真知',
           src: 'https://avatars.githubusercontent.com/u/16894071?v=4',
         },
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'javaSidebar',
+            sidebarId: 'aiSidebar',
             position: 'left',
             label: '聊聊AI',
           },

@@ -42,12 +42,12 @@
 ```
 # Claude Code 项目指南 - 全栈生产环境 (Spring Boot 3 + Nuxt 3)
 
-## 🏗 技术栈上下文
+## 技术栈上下文
 - Backend: Java 21 (优先使用虚拟线程), Spring Boot 3.4+, Maven 3.9+,MyBatis Plus 3.5+,MySQL 8.0+ ,经典的四层架构 (Controller, Service, Repository, Entity) + DTO 转换
 - Frontend: Nuxt 3 (SSR), Vue 3 (Composition API), Tailwind CSS, Pinia
 - API Style: 禁止使用 RESTful API, 只能使用get、post,统一返回对象 `Result<T>`, 异常全局拦截
 
-## 🛠 核心指令 (Commands)
+## 核心指令 (Commands)
 - 构建后端: `cd backend && mvn clean install -DskipTests`
 - 运行后端: `cd backend && mvn spring-boot:run`
 - 运行测试: `cd backend && mvn test` (单元测试) 或 `mvn test -Dtest=ClassName`
@@ -55,7 +55,7 @@
 - 前端构建: `cd frontend && pnpm build`
 - 数据库语句: sql语句与`frontend`和 `backend`平级
 
-## ⚖️ 编码规范与风格
+## 编码规范与风格
 
 ### 后端 (Spring Boot 3 / JDK 21)
 - 新特性: 利用 `switch` 模式匹配；必要时显式配置虚拟线程池。
@@ -80,12 +80,12 @@
 - 规范: 主键必须为bigint(20) 自增类型, 每个表必须要有`create_time`(默认为当前时间), `update_time`(自动更新为当前时间), `is_del` (逻辑删除)。
 - 手机号、密码、用户真实姓名、身份证号、银行卡号、个人住址 属于个人隐私信息，必须加密存储
 
-## 🧱 架构约束
+## 架构约束
 - 命名规范: 分页字段名`pageNum`(页码数),`pageSize`(每页多少个), `pages`(总页数), `total`(总数量)
 - 前端安全: 敏感操作必须检查 CSRF，所有 API 调用通过 Nuxt 内部 Server Proxy 或统一的 `useApi` 工具类。
 - 性能约束: 大规模数据查询必须分页；Vue 组件内禁止出现超过 300 行的逻辑（应拆分为 composables）。
 
-## 📝 任务执行流程
+## 任务执行流程
 - 任何非 trivial 需求，必须先输出设计说明
 - 修改代码前: 必须先分析现有的 `Entity` 和 `DTO` 定义，优先给出设计方案，再写代码，修改代码时明确说明影响范围。
 - 修改数据库: 先在 `CLAUDE.md` 中确认表结构变更，再生成 SQL 和对应的 Java Entity。

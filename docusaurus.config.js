@@ -156,7 +156,7 @@ const config = {
         //     ],
         //   },
         // ],
-        copyright: `Copyright © ${new Date().getFullYear()} Funny'S Insight.`,
+        copyright: `Copyright © ${new Date().getFullYear()} 利叔聊技术`,
       },
       prism: {
         theme: prismThemes.github,

@@ -54,7 +54,7 @@ sysctl net.ipv4.tcp_congestion_control
 
 ## 诊断结论与方案
 
-`cubic` 是传统的 TCP 拥塞控制算法。在丢包率较高的长距离跨境链路（中国 <-> 国外）中，Cubic 一旦检测到轻微丢包就会“断崖式”减速，导致速度锁死在 110kbps。
+`cubic` 是传统的 TCP 拥塞控制算法。在丢包率较高的长距离跨境链路（中国-国外）中，Cubic 一旦检测到轻微丢包就会“断崖式”减速，导致速度锁死在 110kbps。
 
 调优方案是**开启 BBR 算法**，**这是提升速度最有效的方法。** BBR (Bottleneck Bandwidth and Round-trip propagation time) 是 Google 开发的算法，能显著提升高延迟、高丢包环境下的吞吐量。
 

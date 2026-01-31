@@ -95,10 +95,17 @@ const config = {
           },
           {
             type: 'docSidebar',
+            sidebarId: 'personGrowthSidebar',
+            position: 'left',
+            label: '聊聊成长',
+          },
+          {
+            type: 'docSidebar',
             sidebarId: 'managementSidebar',
             position: 'left',
             label: '聊聊管理',
           },
+           
           // {
           //   type: 'docSidebar',
           //   sidebarId: 'tutorialSidebar',

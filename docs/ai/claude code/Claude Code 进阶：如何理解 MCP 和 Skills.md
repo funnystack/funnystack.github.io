@@ -1,4 +1,4 @@
-# Claude Code 进阶：如何理解 MCP 和 Skills
+# Claude Code 进阶：深入理解MCP和Skills
 
 过去两年，我一直在观察和使用 AI 编程工具，看着它们从简单的代码补全，一步步演变成今天的智能协作者。
 

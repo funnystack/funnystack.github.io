@@ -147,7 +147,7 @@ allowed-tools:
 
   
 
-## ‌**Humanizer-zh**‌
+### ‌**Humanizer-zh**‌
 
 本工具能够识别并修复 **24 种** AI 写作痕迹，分为四大类内容模式、语言和语法模式、风格模式、交流模式和填充词等。让你文章 不仅"干净"，更"鲜活"，避免 AI 模式只是基础，好的写作需要真实的人类声音。
 
@@ -193,4 +193,76 @@ npx skills add https://github.com/op7418/Humanizer-zh.git
 
 
 
-## 
+### Ceeon/videocut-skills
+
+把视频剪辑塞进终端，动动嘴就成
+
+这个项目直接给 Claude Code 装了一把“智能剪刀”。它把视频剪辑这活儿彻底给“口语化”了。你只需要在终端里跟 Claude 唠句嗑：“帮我把 video.mp4 最后的 5 秒掐了，再把片头切掉 10 秒”，剩下的脏活累活它就自个儿去后台跑了。这种感觉，就像是配了个随叫随到的实习生，你只管出主意，他负责干活，关键是人家还没怨言。
+
+**带你跑一遍**： 装好 Skill 之后，你就可以像这样“调戏” Claude 了：
+
+在 Claude Code 界面里直接下指令 
+
+```
+# I want tocutvideo.mp4 from 00:01:00 to 00:02:00 and save it as clip.mp4.
+
+# 帮我把 test.mov 里的高潮部分剪出来（如果你之前描述过哪部分是高潮的话）
+```
+
+
+
+### videocut-skills
+
+这个开源项目是一个**视频剪辑 Skill**，叫 videocut-skills。
+
+它能够辅助你完成视频处理工作，比如识别视频中的口误、静音片段以及语气词啥的。
+
+通过简单的指令让 AI 自动处理这些多余的内容，提高剪辑效率。
+
+这个 Skill 集成了多种自动化功能，比如使用 **Whisper 模型生成字幕**，并支持通过词典进行纠错。
+
+它**利用 FFmpeg 进行底层的视频剪辑操作**，确保了处理速度和质量。智能体还具备自我更新的能力，可以根据用户的使用习惯不断优化剪辑规则。
+
+对于需要频繁制作口播类视频的创作者来说，这个工具提供了一套完整的工作流。
+
+从环境安装到最终成片，只需在对话框中输入相应命令即可完成复杂的剪辑任务。
+
+还挺有意思的。
+
+**如何使用**
+
+**① 下载 Skills**
+
+```
+# 克隆到 Claude Code skills 目录 git clone https://github.com/Ceeon/videocut-skills.git ~/.claude/skills/videocut
+```
+
+**② 安装环境**
+
+打开 Claude Code，输入 **/videocut:安装** ，AI 会自动安装依赖、下载模型，大概 5GB。
+
+安装完成你就能用下面这些能力处理你的原素材了。
+
+```
+开源地址：https://github.com/Ceeon/videocut-skills
+```
+
+
+
+### 小红书发布 Skills
+
+这个开源的 Skill 是我从 linux.do 上发现的。
+
+这个 Skill 可以**帮你撰写、制作并发布小红书笔记。**它结合了内容生成与视觉渲染技术，能够根据你设定的主题自动生成符合平台风格的文案。
+
+```
+开源地址：https://github.com/comeonzhj/Auto-Redbook-Skills
+```
+
+
+
+
+
+
+
+https://zhuanlan.zhihu.com/p/1996896276856455574

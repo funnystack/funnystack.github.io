@@ -1,3 +1,6 @@
+---
+sidebar_position: 5
+---
 最近Skills有多火，我就不说了。
 
 2024年，[Prompt工程](https://zhida.zhihu.com/search?content_id=269300476&content_type=Article&match_order=1&q=Prompt工程&zd_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ6aGlkYV9zZXJ2ZXIiLCJleHAiOjE3NzAzMDYzMTQsInEiOiJQcm9tcHTlt6XnqIsiLCJ6aGlkYV9zb3VyY2UiOiJlbnRpdHkiLCJjb250ZW50X2lkIjoyNjkzMDA0NzYsImNvbnRlbnRfdHlwZSI6IkFydGljbGUiLCJtYXRjaF9vcmRlciI6MSwiemRfdG9rZW4iOm51bGx9.aO0DisPxN0iIAmH_HRoj7dJ0zn52kS9MfWDGNtLZCD4&zhida_source=entity)。

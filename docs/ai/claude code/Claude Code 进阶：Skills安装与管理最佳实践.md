@@ -1,3 +1,6 @@
+---
+sidebar_position: 4
+---
 # Claude Code 进阶：Skills 安装与管理最佳实践
 
 > 上一篇文章介绍了 Skills 与 MCP 的区别，本文讲点更实际的：去哪里找好用的 Skills，以及如何安装和管理本地 Skills才不会乱。
@@ -93,7 +96,7 @@ npx skills add https://github.com/vercel-labs/skills --skill find-skills
 
 ![image-20260203221951941](https://typora-1305062402.cos.ap-beijing.myqcloud.com/image-20260203221951941.png)
 
-<img src="https://typora-1305062402.cos.ap-beijing.myqcloud.com/image-20260203222019644.png" alt="image-20260203222019644" style="zoom:50%;" />
+<img src="https://typora-1305062402.cos.ap-beijing.myqcloud.com/image-20260203222019644.png" alt="image-20260203222019644" width="50%" />
 
 #### 怎么用
 
@@ -321,7 +324,7 @@ AI 助手不会每次对话都带上所有 Skills，而是按需调用。
 |:---|:---|:---|
 | 思路 | 广泛安装，以备不时之需 | 按需安装，保持精简 |
 | 优点 | 覆盖广 | **响应更快更准**，干扰少 |
-| 缺点 | 1. 可能误触发不相关技能<br>2. 影响响应速度<br>3. 管理混乱 | 需要主动安装/卸载，有管理成本 |
+| 缺点 | 1. 可能误触发不相关技能 2. 影响响应速度 3. 管理混乱 | 需要主动安装/卸载，有管理成本 |
 | 推荐 | 不推荐 | **推荐** |
 
 ### 底层机制

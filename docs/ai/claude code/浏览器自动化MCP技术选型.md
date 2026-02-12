@@ -1,15 +1,4 @@
-市面上的浏览器操作MCP有3个，分别是Playwright MCP、Chrome DevTools MCP、Chrome MCP，他们具体的区别如下
-
-| 特性           | Playwright MCP                | Chrome DevTools MCP          | Chrome MCP             |
-| -------------- | ----------------------------- | ---------------------------- | ---------------------- |
-| **定位**       | 跨浏览器自动化测试平台        | Chrome专用深度调试工具       | Chrome基础自动化工具   |
-| **技术基础**   | 基于Playwright框架            | 基于Chrome DevTools Protocol | 基于Chrome CDP简化封装 |
-| **浏览器支持** | Chrome、Firefox、Safari、Edge | 仅Chrome/Chromium            | 仅Chrome/Chromium      |
-| **工具数量**   | 15+ 核心工具                  | 26个专业工具                 | 8-12个基础工具         |
-| **复杂度**     | 中等                          | 高                           | 低                     |
-| **学习曲线**   | 适中                          | 陡峭                         | 平缓                   |
-
-### 一、核心定位与底层原理
+## 一、核心定位与底层原理
 
 首先明确两者的本质差异：
 
